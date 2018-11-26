@@ -19,6 +19,8 @@ Plug 'tpope/vim-fugitive'
 Plug 'scrooloose/nerdtree'
 Plug 'kien/ctrlp.vim'
 Plug 'scrooloose/nerdcommenter'
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+Plug 'mdempsky/gocode', { 'rtp': 'vim', 'do': '~/.vim/plugged/gocode/vim/symlink.sh' }
 call plug#end()
 
 "插件设置
@@ -68,3 +70,7 @@ let NERDTreeIgnore=['\.pyc$', '\.pyo$', '__pycache__$']
 autocmd VimEnter * if !argc() | NERDTree | endif  " Load NERDTree only if vim is run without arguments
 nmap <C-n> :NERDTreeToggle<cr>
 
+" ===================================================
+" Gocode setting
+" ===================================================
+imap <F6> <C-x><C-o>
