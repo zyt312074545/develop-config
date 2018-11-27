@@ -21,6 +21,7 @@ Plug 'kien/ctrlp.vim'
 Plug 'scrooloose/nerdcommenter'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'mdempsky/gocode', { 'rtp': 'vim', 'do': '~/.vim/plugged/gocode/vim/symlink.sh' }
+Plug 'rizzatti/dash.vim'
 call plug#end()
 
 "插件设置
@@ -74,3 +75,4 @@ nmap <C-n> :NERDTreeToggle<cr>
 " Gocode setting
 " ===================================================
 imap <F6> <C-x><C-o>
+
