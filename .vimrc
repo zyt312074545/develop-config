@@ -6,16 +6,16 @@ set ruler
 set autoindent
 set backspace=2
 set hlsearch
-set clipboard=unnamed                                                                      │
-set noerrorbells                                                                           │
-set visualbell                                                                             │
+set clipboard=unnamed                                                                      
+set noerrorbells                                                                           
+set visualbell                                                                             
 set t_vb=
 
 syntax enable
 let mapleader = ","
 
-" Enable filetype plugin                                                                   │
-filetype plugin on                                                                         │
+" Enable filetype plugin                                                                   
+filetype plugin on                                                                         
 filetype indent on
 
 " 插件管理
